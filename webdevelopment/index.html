@@ -3,7 +3,7 @@
   <head> 
     <!--
 
-Title: Webpage Template
+Title: Index
 
 Use: Use for starting every webpage, 
 
@@ -11,23 +11,26 @@ Author: Daniel Wilson
 
 School/Term: 2024 Spring
 
-Developed: 02/06/2024
+Developed: 03/07/2024
 
-Tested: 02/06/2024
+Tested: 03/07/2024
 
 -->
     <meta charset="utf-8" />
     <title>The Stoic Road: Home</title>
-    <link href="nav.css" rel="stylesheet">
+    <link href="nav.css" rel="stylesheet"> <link href="style.css" rel="stylesheet">
   </head>
 
   <body>
     <header><h1>The Stoic Road</h1></header>
     <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="#learn">Learn</a></li>
+      <ul id="main-nav">
+        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        <li class="nav-item"><a class="nav-link" href="resources.html">Resources</a></li>
+        <li class="nav-item" id="learn"><a class="nav-link" href="#learn">Learn</a>
+        <ul id="learn-nav"><li class="nav-item">Link 1</li> <li class="nav-item">Link 2</li> <li class="nav-item">Link 3</li></ul></li>
       </ul>
     </nav>
 

@@ -1,25 +1,25 @@
 #main-nav {
-    display: flex;
-    justify-content: space-evenly;
-  }
-  
-  li {
-    list-style-type: none;
-    font-size: 24px;
-    color: #CC3300;
-  }
-  
-  a{
-    text-decoration: none;
-    color: #CC3300;
-  }
-  
-  #learn-nav{
-    display: none;
-  }
-  
-  #learn:hover #learn-nav{
-    display: block;
-    padding: 0;
-    margin-top: 10px;
-  }
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.nav-item {
+  list-style-type: none;
+  font-size: 24px;
+  color: #CC3300;
+}
+
+.nav-link{
+  text-decoration: none;
+  color: #CC3300;
+}
+
+#learn-nav{
+  display: none;
+}
+
+#learn:hover #learn-nav{
+  display: block;
+  padding: 0;
+  margin-top: 10px;
+}

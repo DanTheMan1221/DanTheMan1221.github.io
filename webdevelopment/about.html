@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en-US">
-  <head> <link href="style.css" rel="stylesheet">
+  <head> <link href="style.css" rel="stylesheet"> <link href="nav.css" rel="stylesheet">
     <!--
 
-Title: Webpage Template
+Title: About Page
 
 Use: Use for starting every webpage, 
 
@@ -11,9 +11,9 @@ Author: Daniel Wilson
 
 School/Term: 2024 Spring
 
-Developed: 02/06/2024
+Developed: 03/07/2024
 
-Tested: 02/06/2024
+Tested: 03/07/2024
 
 -->
     <meta charset="utf-8" />
@@ -22,6 +22,16 @@ Tested: 02/06/2024
 
   <body>
     <header><h1>Hello my name is Daniel</h1></header>
+    <nav>
+      <ul id="main-nav">
+        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        <li class="nav-item"><a class="nav-link" href="resources.html">Resources</a></li>
+        <li class="nav-item" id="learn"><a class="nav-link" href="#learn">Learn</a>
+        <ul id="learn-nav"><li class="nav-item">Link 1</li> <li class="nav-item">Link 2</li> <li class="nav-item">Link 3</li></ul></li>
+      </ul>
+    </nav>
 
     <main>
       <h3>About me</h3>
@@ -48,7 +58,7 @@ Tested: 02/06/2024
         "Our thoughts control our feelings, and our feelings control our
         actions."
       </blockquote>
-      <a href="MyResume.pdf">My Resume</a>
+      <a id="resume" href="MyResume.pdf">My Resume</a>
     </main>
 
     <footer>Daniel Wilson Email: ddwkfd@umsystem.edu &copy 2024</footer>

@@ -3,7 +3,7 @@ h1 { color: #CC0099;
 }
 
 
-a { display: block;
+#resume { display: block;
     padding: 12px;
     font-size: 16px;
     text-align: center;
@@ -15,3 +15,12 @@ a { display: block;
     border: 5px double black;
     border-radius: 20px; 
 }
+
+.indent {
+    text-indent: 50px;
+  }
+  
+  #first-para:first-letter {
+    color: purple;
+    font-size: 30px;
+  }
