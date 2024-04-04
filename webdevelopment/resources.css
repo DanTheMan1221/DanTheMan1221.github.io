@@ -1,0 +1,13 @@
+h1 { color: #CC0099; 
+  
+}
+
+.indent {
+    text-indent: 4rem;
+  }
+
+  #first-para:first-letter {
+    color: purple;
+    font-size: 2rem;
+  }
+

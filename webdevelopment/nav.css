@@ -31,7 +31,31 @@ nav {
   display: flex;
   justify-content: flex-end;
   align-items: center;
+  position: relative;
 }
+
+#toggle {
+  display: none;
+}
+
+#mobile-nav:hover {
+cursor: pointer;
+}
+
+#toggle:checked + #main-nav {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  right: 5%;
+  top: 50%;
+}
+
+
+
+
+
+
+
 
 @media screen and (min-width: 750px) {
   #main-nav {
@@ -42,4 +66,9 @@ nav {
   #mobile-nav {
     display: none;
   }
+  #toggle:checked + #main-nav {
+    flex-direction: row;
+    position: static;
+  }
 }
+

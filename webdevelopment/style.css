@@ -1,70 +1,12 @@
-h1 { color: #CC0099; 
-  
+footer {
+  background-image: url("images/column.jpeg");
+  font-size: 1.25rem;
 }
 
-
-#resume { display: block;
-    padding: 12px;
-    font-size: 16px;
-    text-align: center;
-    text-decoration: none;
-    background-color: #CC3300;
-    color: white;
-    width: 100px;
-    margin: 8px auto;
-    border: 5px double black;
-    border-radius: 20px; 
+header{
+  font-family: "Noto Serif", serif;
 }
 
-.indent {
-    text-indent: 50px;
-  }
-  
-  #first-para:first-letter {
-    color: purple;
-    font-size: 30px;
-  }
-
-  #my-image {
-    max-height: 300px;
-    max-width: 300px;
-  }
-
-  #cover-image {
-    max-height: 300px;
-    max-width: 400px;
-    margin: auto;
-  }
-  
-
-
-    body {
-      display: grid;
-      grid-template-rows: auto auto auto;
-      grid-template-columns: 1fr auto;
-    }
-    header {
-      grid-row: 1 / 2;
-      grid-column: 1 / 2;
-    }
-    nav {
-      grid-row: 1 / 2;
-      grid-column: 2 / 3;
-    }
-    footer {
-      grid-row: 3 / 4;
-      grid-column: 1 / 3;
-    }
-    main {
-      display: flex;
-      flex-direction: column;
-      gap: 15px;
-      grid-row: 2 / 3;
-      grid-column: 1 / 3;
-    }
-
-@media screen and (min-width: 750px) {
-    main {
-      flex-direction: row;
-    }
-  }
+.fa-solid:hover {
+  transform: scale(1.3);
+}
