@@ -42,6 +42,28 @@ h1 { color: #CC0099;
     border-radius: 20px; 
 }
 
+
+
+table {
+  width: 100%;
+  border: 2px solid black;
+}
+
+thead {
+  background-color: yellow;
+  
+}
+
+tr:nth-of-type(2n) {
+  background-color: lightyellow;
+}
+
+caption {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+
 #my-image {
     max-height: 300px;
     max-width: 300px;
@@ -51,6 +73,18 @@ h1 { color: #CC0099;
   @media screen and (min-width: 750px) {
     main {
       flex-direction: row;
+    }
+  }
+
+
+
+
+  @media screen and (max-width: 750px) {
+    thead {
+      display: none;
+    }
+    td {
+      display: block;
     }
   }
   
